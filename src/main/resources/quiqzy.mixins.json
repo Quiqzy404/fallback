@@ -1,0 +1,48 @@
+{
+	"required": true,
+	"package": "dev.quiqzy.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AbstractClientPlayerMixin",
+		"BufferBuilderAccessor",
+		"ChatComponentMixin",
+		"ClientPacketListenerMixin",
+		"ChunkBlockEntitySpyMixin",
+		"ClientLevelMixin",
+		"ClientLevelSoundSpyMixin",
+		"EntityRendererMixin$Base",
+		"EntityRendererMixin$Avatar",
+		"FogRendererMixin",
+		"FreecamMixins$CameraMixin",
+		"FreecamMixins$TurnMixin",
+		"FreecamMixins$ScrollMixin",
+		"GameRendererMixin",
+		"GlassMixin",
+		"VelocityMixin",
+		"HitboxesMixin",
+		"GlassAvatarMixin",
+		"GlowMixins$Glowing",
+		"GlowMixins$TeamColor",
+		"GuiMixin",
+		"ItemInHandRendererMixin",
+		"ItemStackRenderStateAccessor",
+		"LayerRenderStateAccessor",
+		"LevelMixin",
+		"LivingEntityMixin",
+		"LocalPlayerMixin",
+		"MultiPlayerGameModeMixin",
+		"OverlayTextureMixin",
+		"PopMixin",
+		"ScoreboardTextMixin",
+		"ScreenEffectRendererMixin",
+		"SoundEventSpyMixin",
+		"SwingMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,10 @@
+{
+ "key.quiqzy.open_gui": "Open ZERO GUI",
+ "key.quiqzy.zoom": "Zoom (Zoom module)",
+ "key.quiqzy.add_waypoint": "Add Waypoint (Waypoints module)",
+ "key.quiqzy.instant_launch": "Instant Launch (Instant Launch module)",
+ "key.quiqzy.toggle_gui": "Switch GUI style (HTML / Liquid Glass)",
+ "key.category.quiqzy.main": "ZERO Client",
+ "key.quiqzy.inspect": "Weapon Trick (Inspect)",
+ "key.quiqzy.hud_editor": "HUD Editor"
+}

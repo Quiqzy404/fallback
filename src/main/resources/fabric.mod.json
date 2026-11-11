@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "quiqzy",
+	"version": "${version}",
+	"name": "ZERO Client",
+	"description": "ZERO Client - glass GUI (Right Shift) with Combat, Visuals and World modules.",
+	"authors": ["Quiqzy"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/quiqzy/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.quiqzy.client.QuiqzyClient"
+		]
+	},
+	"mixins": [
+		"quiqzy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
